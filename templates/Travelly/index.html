@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<!--
+	Travelly by 
+  Follow me on Twitter to get Update @Icesofty
+   
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
+-->
+
+<html lang="en" class="scroll">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Travelly</title>
+  </head>
+  <body class="bg-gray-100 font-light">
+    <section
+      class="flex flex-col h-screen bg-cover bg-fixed"
+      style="background-image: url('./assets/img/bg2.jpg');"
+    >
+      <nav class="flex justify-between p-8 text-gray-400 text-lg">
+        <h1>TRAVELLY</h1>
+        <ul class="flex">
+          <li class="px-4 text-gray-100"><a href="#">HOME</a></li>
+          <li class="px-4  hover:text-orange-400 "><a href="#">BLOG</a></li>
+          <li class="px-4 hover:text-orange-400"><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="flex flex-col justify-center items-center m-auto h-full">
+        <h1 class=" uppercase text-4xl text-gray-100 sm:text-6xl ">
+          Visit Santorini
+        </h1>
+        <div class="flex justify-center items-center sm:w-full ">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Santorini, Greece"
+            class=" bg-white shadow-lg rounded-l h-12 p-4 flex-1 mt-4"
+          />
+
+          <a
+            href="#results"
+            class="flex bg-orange-400 w-16 h-12 mt-4 shadow-lg justify-center items-center rounded-r"
+          >
+            <i
+              class="fa fa-map-marker text-gray-100 fa-lg"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      id="results"
+      class="scroll w-3/4 flex-col items-center self-center m-auto"
+    >
+      <h1 class="scroll-start text-center text-4xl mt-16 lg:text-6xl">
+        Top rated hotel
+      </h1>
+
+      <hr class="w-24 mx-auto mb-16" />
+      <div class="flex flex-col items-center lg:w-auto lg:m-auto">
+        <div
+          class="flex justify-between w-full uppercase  text-xs lg:text-sm xl:w-2/3"
+        >
+          <p>WATERPOOL - 2 BEDROOMS - 5 GUESTS - Breakfast</p>
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Santorini,
+            Greece
+          </p>
+        </div>
+        <div
+          class="flex  bg-cover bg-center rounded xl:w-2/3"
+          style="background-image: url('./assets/img/hotel.jpg');"
+        >
+          <div
+            class="flex flex-col items-center w-64 bg-white w-full rounded p-8 m-8 lg:w-1/2 "
+          >
+            <h1 class="text-gray-800 text-2xl font-normal">Hotel Lorem</h1>
+            <div class="flex text-orange-400">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p class="text-center py-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium nobis deleniti voluptatem, nihil autem similique iure
+              tempora soluta sint sapiente?
+            </p>
+            <h3 class="text-3xl text-gray-900 pb-4">$ 3,789</h3>
+            <a href="booking.html">
+              <button
+                class="p-2 rounded bg-orange-400 text-gray-100 text-xl font-bold w-32 hover:bg-orange-700"
+              >
+                BOOK
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="hidden justify-between py-2 h-48 w-full sm:flex xl:w-2/3">
+          <div
+            class="flex justify-center items-center w-1/3 bg-cover rounded mx-1 cursor-pointer text-xl font-bold text-transparent transition ease-in duration-300 hover:text-white hover:opacity-75 "
+            style="background-image: url('./assets/img/bedroom.jpg');"
+          >
+            <p class=" opacity-100">BEDROOM</p>
+          </div>
+          <div
+            class="flex justify-center items-center w-1/3 bg-cover rounded mx-1 cursor-pointer text-xl font-bold text-transparent  transition ease-in duration-300  hover:text-white hover:opacity-75 "
+            style="background-image: url('./assets/img/beach.jpg');"
+          >
+            <p class="opacity-100">BEACH</p>
+          </div>
+          <div
+            class="flex justify-center items-center w-1/3 bg-cover rounded mx-1 cursor-pointer text-xl font-bold text-transparent  transition ease-in duration-300 hover:text-white hover:opacity-75 "
+            style="background-image: url('./assets/img/waterpool.jpg');"
+          >
+            <p class="opacity-100">WATERPOOL</p>
+          </div>
+        </div>
+
+        <h1 class="text-center text-4xl mt-16 lg:text-6xl">
+          Other hotels
+        </h1>
+
+        <hr class="w-24 mx-auto mb-16" />
+      </div>
+    </section>
+
+    <section class="flex justify-center flex-wrap  ">
+      <div
+        class="text-center shadow bg-white rounded  pb-8 m-8 md:w-1/2 xl:w-1/4  "
+      >
+        <div
+          class="  bg-cover rounded-t mx-0 h-48 w-full p-0 "
+          style="background-image: url('./assets/img/hotel1.jpg');"
+        >
+          <div class="flex w-full justify-end text-white font-bold p-4">
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Santorini,
+              Greece
+            </p>
+          </div>
+        </div>
+        <h1 class="text-gray-800 mt-4 text-2xl font-normal">Hotel Lorem</h1>
+        <div class="flex justify-center text-orange-400">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+
+        <p class="text-center p-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          nobis deleniti voluptatem, nihil autem similique iure tempora soluta
+          sint sapiente?
+        </p>
+        <h3 class="text-3xl text-gray-900 pb-4">$ 1,693</h3>
+        <a href="booking.html">
+          <button
+            class="p-2  rounded bg-orange-400 text-gray-100 text-xl font-bold w-32 hover:bg-orange-700"
+          >
+            BOOK
+          </button>
+        </a>
+      </div>
+      <div
+        class="text-center shadow bg-white rounded  pb-8 m-8 md:w-1/2 xl:w-1/4  "
+      >
+        <div
+          class="  bg-cover rounded-t mx-0 h-48 w-full p-0 "
+          style="background-image: url('./assets/img/hotel2.jpg');"
+        >
+          <div class="flex w-full justify-end text-white font-bold p-4">
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Santorini,
+              Greece
+            </p>
+          </div>
+        </div>
+        <h1 class="text-gray-800 mt-4 text-2xl font-normal">Hotel Lorem</h1>
+        <div class="flex justify-center text-orange-400">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+
+        <p class="text-center p-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          nobis deleniti voluptatem, nihil autem similique iure tempora soluta
+          sint sapiente?
+        </p>
+        <h3 class="text-3xl text-gray-900 pb-4">$ 1,693</h3>
+        <a href="booking.html">
+          <button
+            class="p-2  rounded bg-orange-400 text-gray-100 text-xl font-bold w-32 hover:bg-orange-700"
+          >
+            BOOK
+          </button>
+        </a>
+      </div>
+      <div
+        class="text-center shadow bg-white rounded  pb-8 m-8 md:w-1/2 xl:w-1/4  "
+      >
+        <div
+          class="  bg-cover rounded-t mx-0 h-48 w-full p-0 "
+          style="background-image: url('./assets/img/hotel3.jpg');"
+        >
+          <div class="flex w-full justify-end text-white font-bold p-4">
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i> Santorini,
+              Greece
+            </p>
+          </div>
+        </div>
+        <h1 class="text-gray-800 mt-4 text-2xl font-normal">Hotel Lorem</h1>
+        <div class="flex justify-center text-orange-400">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+
+        <p class="text-center p-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          nobis deleniti voluptatem, nihil autem similique iure tempora soluta
+          sint sapiente?
+        </p>
+        <h3 class="text-3xl text-gray-900 pb-4">$ 1,693</h3>
+        <a href="booking.html">
+          <button
+            class="p-2  rounded bg-orange-400 text-gray-100 text-xl font-bold w-32 hover:bg-orange-700"
+          >
+            BOOK
+          </button>
+        </a>
+      </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-100 w-full ">
+      <div class="h-16 flex justify-around items-center my-auto mx-4">
+        <p>Travelly</p>
+        <div class="">
+          <i
+            class="fa fa-twitter px-2 cursor-pointer  transition ease-in duration-300  hover:text-orange-500"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-facebook px-2 cursor-pointer  transition ease-in duration-300  hover:text-orange-500"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-instagram px-2 cursor-pointer  transition ease-in duration-300  hover:text-orange-500"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <div>
+          <i class="fa fa-copyright" aria-hidden="true"></i>
+          <span> Copyrigth Your Company </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
